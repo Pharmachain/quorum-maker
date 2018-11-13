@@ -1,0 +1,5 @@
+<< EOF
+1
+Test
+EOF
+

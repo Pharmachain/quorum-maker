@@ -9,5 +9,5 @@ for node in `find . -name 'node*' -type d -maxdepth 1` ; do
 	address=${address%"\""}
 	address=${address#"\""}
 	echo $address
-	geth --exec "personal.unlockAccount('$address','',100000000)" attach node1/node/qdata/geth.ipc
+	geth --exec "personal.unlockAccount('$address','',100000000)" attach $node/node/qdata/geth.ipc
 done

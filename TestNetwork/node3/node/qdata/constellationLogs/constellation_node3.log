@@ -1,2 +1,17 @@
 [*] Starting Constellation node
-05:39:39 [INFO] Log level is LevelWarn
+06:06:16 [INFO] Log level is LevelWarn
+06:06:17 [WARN] Synchronization failed: HttpExceptionRequest Request {
+  host                 = "10.50.0.2"
+  port                 = 22002
+  secure               = False
+  requestHeaders       = []
+  path                 = "/partyinfo"
+  queryString          = ""
+  method               = "POST"
+  proxy                = Nothing
+  rawBody              = False
+  redirectCount        = 10
+  responseTimeout      = ResponseTimeoutDefault
+  requestVersion       = HTTP/1.1
+}
+ (ConnectionFailure Network.Socket.connect: <socket: 13>: does not exist (Connection refused))

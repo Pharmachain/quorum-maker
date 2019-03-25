@@ -11,7 +11,7 @@ services:
 
   node1:
     container_name: node1
-    image: syneblock/quorum-maker:2.1.0_2.5
+    image: syneblock/quorum-maker:2.2.1_2.6.2
     working_dir: /node1
     command: ["bash" , "start.sh"]
     volumes:
@@ -23,7 +23,7 @@ services:
         ipv4_address: 10.50.0.2
   node2:
     container_name: node2
-    image: syneblock/quorum-maker:2.1.0_2.5
+    image: syneblock/quorum-maker:2.2.1_2.6.2
     working_dir: /node2
     command: ["bash" , "start.sh"]
     volumes:
@@ -35,7 +35,7 @@ services:
         ipv4_address: 10.50.0.3
   node3:
     container_name: node3
-    image: syneblock/quorum-maker:2.1.0_2.5
+    image: syneblock/quorum-maker:2.2.1_2.6.2
     working_dir: /node3
     command: ["bash" , "start.sh"]
     volumes:

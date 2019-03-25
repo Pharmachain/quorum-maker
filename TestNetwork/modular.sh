@@ -11,3 +11,4 @@ for node in `find . -name 'node*' -type d -maxdepth 1` ; do
 	echo $address
 	geth --exec "personal.unlockAccount('$address','',100000000)" attach $node/node/qdata/geth.ipc
 done
+
